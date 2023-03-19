@@ -474,6 +474,20 @@ footer div p{
         font-size: 40px;
         padding: 20px;
     }
+    
+    .tarjetas-menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cards-menu-responsive{
+        font-size: 30px;
+        height: 300px;
+        width: 250px;
+        font-size: 20px;
+    }
 
     .section-especial{
         font-size: 25px;
@@ -653,12 +667,18 @@ footer div p{
     }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1020px){
 
     .tarjeta-style{
         width: 350px;
         height: 400px;
         font-size: 25px;
+    }
+
+    .cards-menu-responsive{
+        width: 300px;
+        height: 350px;
+        font-size: 20px;
     }
 
     .tarjeta-especial{
@@ -671,6 +691,7 @@ footer div p{
         text-align: left;
         width: 100%;
     }
+
 
     .nosotros h1{
         width: 80%;
@@ -763,6 +784,12 @@ footer div p{
         margin-top: 30px;
     }
 
+    .cards-menu-responsive{
+        width: 300px;
+        height: 400px;
+        font-size: 20px;
+    }
+
     .section-especial{
         font-size: 40px;
     }
@@ -813,13 +840,32 @@ footer div p{
         font-size: 25px;
     }
 
-
-
     .ult-sec div{
         font-size: 28px;
     }
     .ult-sec div i{
         font-size: 35px;
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .nav-menu{
+        font-size: 18px;
+    }
+
+    .cards-menu-responsive{
+        width: 350px;
+        height: 400px;
+        font-size: 20px;
+    }
+
+    .tarjeta-especial{
+        width: 70%;
+    }
+
+    .tarjeta-especial div p{
+        font-size: 30px;
     }
 }
 
