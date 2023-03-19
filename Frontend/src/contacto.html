@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Titillium+Web:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9ac8b6c871.js" crossorigin="anonymous"></script>
+    <script defer src="./index.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="./assets/logo.png" alt="logo" class="logo">
+            <button class="nav-toggle">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./menu.html">MENÚ</a></li>
+                <li><a href="./nosotros.html">¿QUIENES SOMOS?</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form" id="formGuardar">
+        <h1>¡Contactate con nosostros!</h1>
+
+        <form>
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email">
+
+            <label for="numero">Número de contacto</label>
+            <input type="tel" id="numero" name="numero">
+
+            <label for="mensaje">Mensaje</label>
+            <input type="text" id="mensaje" name="mensaje">
+            
+            <input type="submit" id="submit-button" value="Enviar"   />
+        </form>
+    </section>
+
+    <section class="ult-sec">
+        <div>
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+            <h2>Ubicación</h2>
+            <p>Carvajal, Valera, Estado Trujillo.</p>
+        </div>
+
+        <div>
+            <i class="fa-sharp fa-solid fa-phone"></i>
+            <h2>Número de contacto</h2>
+            <p>+58 0414-7583023</p>
+        </div>
+
+        <div>
+            <i class="fa-sharp fa-solid fa-clock"></i>
+            <h2>Horario de atención</h2>
+            <p>Lunes-Sabado : 8:00am a 6:00pm.</p>
+            <p>Lunes-Domingo: 8:00am a 4:00pm</p>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>  
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a> 
+        </div>
+
+        <div>
+            <p>Direccion: Carvajal, Valera, Estado Trujillo. </p>
+            <p>Diseñado por: Sara Gudiño.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

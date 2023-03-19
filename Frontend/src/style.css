@@ -1,0 +1,812 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+/* nav*/
+.header{
+    background-color: #3B2600;
+    font-family: 'Playfair Display', serif;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.logo{
+    height: 60px;
+    line-height: 60px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-menu{
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #7A5000;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+    list-style: none;
+}
+
+
+.nav-toggle{
+display: block;
+}
+
+.show{
+left: 0;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: #D99B66;
+}
+
+.nav-toggle{
+    color: #D99B66;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+}
+
+.nav-menu li{
+    padding: 20px 0;
+}
+
+.nav-toggle{
+    display: block;
+}
+
+.show{
+    left: 0;
+}
+/* */
+
+
+/* inicio*/
+.section1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./assets/principal-vertical.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section1 p{
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;;
+
+}
+
+.section2{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #7A5000;
+    margin: 20px;
+}
+
+.carrusel{
+    width: 100%;
+    max-width: 120em;
+    overflow-x: hidden;
+}
+
+.tarjetas{
+    width: 300%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all .5s ease;
+}
+
+.tarjeta-style{
+    background-color: #7A5000;
+    padding: 15px;
+    color: #D99B66;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    margin: 20px;
+    height: 300px;
+    width: 250px;
+    align-items: center;
+}
+
+.tarjeta-style img {
+    width: 100%;
+    height: 70%;
+}
+
+.puntos{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.punto{
+    list-style: none;
+    width: .7em;
+    height: .7em;
+    margin:  .4em .4em 0;
+    background-color: #3B2600;
+    border-radius: 50%;
+}
+
+.punto.activo{
+    background-color: #D99B66;
+}
+
+
+.section3{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #7A5000;
+    margin-bottom: 30px;
+}
+
+.section3-div{
+    margin: 20px;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.section3-div i{
+    font-size: 25px;
+}
+/**/
+
+
+/*menu*/
+
+.section-menu{
+    font-size: 20px;
+    margin-top: 80px;
+    text-align: center;
+    color: #7A5000;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.tarjetas-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-especial{
+    color: #7A5000;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tarjeta-especial{
+    background-color: #7A5000;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    color: #D99B66;
+    
+}
+
+.tarjeta-especial div{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+}
+
+.tarjeta-especial img{
+    width: 100%;
+    height: 100%;
+}
+/**/
+
+
+/*nosotros*/
+.nosotros{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    color:#7A5000;
+    
+}
+
+.nosotros h1{
+    margin-top: 90px;
+}
+.tarjeta-nosotros{
+    background-color: #7A5000;
+    padding: 15px;
+    width: 80%;
+    margin: 15px;
+    color: #D99B66;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.tarjeta-nosotros img {
+    width: 80%;
+    height: 80%;
+    margin-top: 10px;
+}
+
+.medios-pago{
+    color: #7A5000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-family: 20px;
+    margin-top: 20px;
+}
+
+.medios-pago ul{
+    list-style: none;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+
+.medios-pago ul li{
+    padding: 5px;
+}
+
+.medios-pago ul li i{
+    padding: 5px;
+    font-size: 15px;
+}
+
+/**/
+
+
+/*contacto*/
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    margin-top: 40px;
+    color: #7A5000;
+}
+
+.form{
+    margin-top: 100px;
+}
+
+.form form{
+    margin: 20px;
+    background-color: #7A5000;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+}
+
+.form form input{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin: 5px;
+    padding: 9px;
+}
+
+.form form label{
+    width: 100%;
+    color: #D99B66;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+#mensaje{
+    height: 150px;
+}
+
+#submit-button{
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    height: 100%;
+    border: none;
+    color: #D99B66;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: white;
+}
+
+#submit-button:hover{
+    background-color: #3B2600;
+}
+
+.ult-sec{
+    text-align: center;
+    color: #7A5000;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ult-sec div{
+    margin: 20px;
+}
+
+.ult-sec div i{
+    font-size: 20px;
+}
+/**/
+
+
+/*footer*/
+footer{
+    background-color: #3B2600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #D99B66;
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: #D99B66;
+    font-size: 20px;
+}
+
+footer div p{
+    text-align: end;
+    font-size: 10px;
+}
+
+
+
+/* responsive*/
+
+
+@media (min-width: 650px){
+
+    .section1{
+        font-size: 40px;
+    }
+
+    .section1 p{
+        font-size: 30px;
+    }
+
+    .section2 h1{
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .tarjeta-style{
+        font-size: 30px;
+        height: 400px;
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .punto{
+        margin: 40px 10px;
+        width: 1em;
+        height: 1em;
+    }
+
+    .section3{
+        margin-bottom: 80px;
+        font-size: 25px;
+    }
+
+    .section3-div{
+        font-size: 20px;
+        
+    }
+
+    .section3-div i{
+        font-size: 30px;
+    }
+
+    
+    footer div a{
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    
+    footer div p{
+        font-size: 15px;
+    }
+
+    .section-menu h1{
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    .section-especial{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .tarjeta-especial{
+        display: flex;
+        width: 90%;
+    }
+
+    .tarjeta-especial div{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .tarjeta-especial img{
+        width: 30%;
+        height: 100%;
+    }
+
+    .nosotros{
+        font-size: 25px;
+    }
+    
+    .tarjeta-nosotros{
+        display: flex;
+        margin: 15px;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    .tarjeta-nosotros p{
+        padding: 10px;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .tarjeta-nosotros img{
+        width: 40%;
+        height: 100%;
+        margin: 0;
+    }
+    
+    .medios-pago{
+        font-size: 20px;
+    }
+
+    .medios-pago ul li i{
+        font-size: 25px;
+    }
+    
+    .form{
+        
+        font-size: 20px;
+    }
+
+    .form form{
+        width: 40%;
+    }
+
+    .form form label{
+        font-size: 15px;
+    }
+
+    
+    #submit-button{
+        font-size: 15px;
+    }
+
+    .ult-sec{
+        font-size: 18px;
+    }
+
+    .ult-sec div i{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 900px){ 
+    .header{
+        height: 85px;
+    }
+
+    .section1{
+        background-image: url(./assets/principal-horizontal.jpg);
+    }
+    .logo{
+        height: 85px;
+        line-height: 85px;
+    }
+    
+    .nav-menu{
+        font-size: 18px;
+        width: 100%;
+        height: 85px;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        background-color: #3B2600;
+        padding: 10px;
+        position: relative;;
+        top: 0;
+        left:0;
+        transition: none;
+        list-style: none;
+    }
+
+    .nav-menu li{
+        text-align: right;
+        display: inline-block;
+        margin-left: 20px;
+        padding: 20px 0;
+    }
+    
+    .nav-toggle{
+        display: none;
+    }
+
+    .section1{
+        font-size: 60px;
+    }
+
+    .section3 div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section3-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarjeta-especial{
+        width: 60%;
+    }
+    .tarjeta-especial div{
+        font-size: 20px;
+    }
+
+    .tarjeta-especial img{
+        width: 30%;
+    }
+
+    .tarjeta-nosotros{
+        width: 50%;
+    }
+
+    .tarjeta-nosotros img{
+        width: 40%;
+    }
+
+    .tarjeta-nosotros p{
+        font-size: 20px;
+    }
+    
+    .form form{
+        width: 30%;
+    }
+
+    .form form label{
+        font-size: 20px;
+    }
+
+    #submit-button{
+        font-size: 20px;
+        width: 30%;
+    }
+    footer div a{
+        padding: 10px;
+        font-size: 35px;
+    }
+
+    .ult-sec{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1000px){
+
+    .tarjeta-style{
+        width: 350px;
+        height: 400px;
+        font-size: 25px;
+    }
+
+    .tarjeta-especial{
+        width: 80%;
+    }
+
+    .nosotros {
+        font-size: 30px;
+        margin-top: 30px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .nosotros h1{
+        width: 80%;
+    }
+
+    .nosotros h2{
+        width: 80%;
+    }
+    .tarjeta-nosotros{
+        width: 80%;
+    }
+
+    .tarjeta-nosotros img{
+        width: 40%;
+    }
+
+    .medios-pago{
+        font-size: 30px;
+    }
+
+    .form form{
+        width: 40%;
+    }
+
+    .form{
+        font-size: 30px;
+    }
+
+    .ult-sec div{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .nav-menu{
+        font-size: 20px;
+    }
+
+    .section2 h1{
+        font-size: 60px;
+    }
+
+    .section-menu{
+        margin-top: 120px;
+    }
+    
+    
+    .tarjeta-style{
+        height: 500px;
+        width: 450px;
+        font-size: 30px;
+    }
+    
+    .tarjeta-style h2{
+        padding-top: 20px;
+    }
+
+    .punto{
+        width: 30px;
+        height: 30px;
+    }
+
+    .section3{
+        font-size: 40px;
+    }
+
+    .section3-div{
+        font-size: 30px;
+    }
+
+    .section3-div i{
+        font-size: 50px;
+    }
+
+    footer{
+        height: 80px;
+    }
+
+    footer div a i{
+        font-size: 40px;
+    }
+
+    footer div p{
+        font-size: 25px;
+    }
+
+    .section-menu h1{
+        font-size: 70px;
+        margin-top: 30px;
+    }
+
+    .section-especial{
+        font-size: 40px;
+    }
+
+    .tarjeta-especial img{
+        width: 40%;
+    }
+
+    .tarjeta-especial div p{
+        font-size: 26px;
+    }
+
+    .tarjeta-nosotros p{
+        font-size: 30px;
+    }
+
+    .tarjeta-nosotros img{
+        width: 45%;
+    }
+
+    .medios-pago{
+        font-size: 45px;
+        margin: 50px;
+    }
+
+    .medios-pago ul li i{
+        font-size: 40px;
+    }
+
+    .form{
+        font-size: 40px;
+    }
+
+    .form form label{
+        font-size: 30px;
+    }
+
+    .form form input{
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
