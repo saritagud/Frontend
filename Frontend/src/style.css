@@ -474,6 +474,20 @@ footer div p{
         font-size: 40px;
         padding: 20px;
     }
+    
+    .tarjetas-menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cards-menu-responsive{
+        font-size: 30px;
+        height: 300px;
+        width: 250px;
+        font-size: 20px;
+    }
 
     .section-especial{
         font-size: 25px;
@@ -507,7 +521,7 @@ footer div p{
     .tarjeta-nosotros p{
         padding: 10px;
         text-align: left;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .tarjeta-nosotros img{
@@ -517,7 +531,7 @@ footer div p{
     }
     
     .medios-pago{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .medios-pago ul li i{
@@ -618,7 +632,7 @@ footer div p{
     }
 
     .tarjeta-nosotros{
-        width: 50%;
+        width: 70%;
     }
 
     .tarjeta-nosotros img{
@@ -653,12 +667,18 @@ footer div p{
     }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1020px){
 
     .tarjeta-style{
         width: 350px;
         height: 400px;
         font-size: 25px;
+    }
+
+    .cards-menu-responsive{
+        width: 300px;
+        height: 350px;
+        font-size: 20px;
     }
 
     .tarjeta-especial{
@@ -671,6 +691,7 @@ footer div p{
         text-align: left;
         width: 100%;
     }
+
 
     .nosotros h1{
         width: 80%;
@@ -722,7 +743,7 @@ footer div p{
     .tarjeta-style{
         height: 500px;
         width: 450px;
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .tarjeta-style h2{
@@ -761,6 +782,12 @@ footer div p{
     .section-menu h1{
         font-size: 70px;
         margin-top: 30px;
+    }
+
+    .cards-menu-responsive{
+        width: 300px;
+        height: 400px;
+        font-size: 20px;
     }
 
     .section-especial{
@@ -803,6 +830,42 @@ footer div p{
     .form form input{
         height: 50px;
         font-size: 20px;
+    }
+
+    #mensaje{
+        height: 250px;
+    }
+
+    #submit-button{
+        font-size: 25px;
+    }
+
+    .ult-sec div{
+        font-size: 28px;
+    }
+    .ult-sec div i{
+        font-size: 35px;
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .nav-menu{
+        font-size: 18px;
+    }
+
+    .cards-menu-responsive{
+        width: 350px;
+        height: 400px;
+        font-size: 20px;
+    }
+
+    .tarjeta-especial{
+        width: 70%;
+    }
+
+    .tarjeta-especial div p{
+        font-size: 30px;
     }
 }
 

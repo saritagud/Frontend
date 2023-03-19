@@ -507,7 +507,7 @@ footer div p{
     .tarjeta-nosotros p{
         padding: 10px;
         text-align: left;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .tarjeta-nosotros img{
@@ -517,7 +517,7 @@ footer div p{
     }
     
     .medios-pago{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .medios-pago ul li i{
@@ -618,7 +618,7 @@ footer div p{
     }
 
     .tarjeta-nosotros{
-        width: 50%;
+        width: 70%;
     }
 
     .tarjeta-nosotros img{
@@ -722,7 +722,7 @@ footer div p{
     .tarjeta-style{
         height: 500px;
         width: 450px;
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .tarjeta-style h2{
@@ -803,6 +803,23 @@ footer div p{
     .form form input{
         height: 50px;
         font-size: 20px;
+    }
+
+    #mensaje{
+        height: 250px;
+    }
+
+    #submit-button{
+        font-size: 25px;
+    }
+
+
+
+    .ult-sec div{
+        font-size: 28px;
+    }
+    .ult-sec div i{
+        font-size: 35px;
     }
 }
 
